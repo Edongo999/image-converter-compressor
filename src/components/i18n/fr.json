@@ -1,340 +1,183 @@
 {
   "nav": {
-    "hero": "Accueil",
-    "about": "À propos",
-    "skills": "Compétences",
-    "projects": "Réalisations",
-    "experience": "Expériences",
-    "contact": "Contact",
-    "close": "Fermer"
-  },
-
-  "hero": {
-    "greeting": "Bonjour, je suis",
-    "name1": "LEMOUDJI KEMTA",
-    "name2": "MIRANDA",
-    "name3": "Community Manager",
-    "role1": "Community Manager",
-    "description": "J’aide les entreprises à développer leur présence digitale et à améliorer leur visibilité grâce à des stratégies marketing efficaces. Mon objectif est de créer du contenu pertinent et engageant, tout en mettant en place des actions qui renforcent l’image de marque et favorisent une meilleure interaction avec la communauté en ligne.",
-    "btnProjects": "Voir mes réalisations",
-    "btnCV": "Télécharger mon CV",
-    "linkedinTooltip": "Mon profil LinkedIn",
-    "imageAlt": "Portrait de Miranda"
-  },
-
-
-  "about": {
-    "title": "À propos de moi",
-    "subtitle": "Qui suis-je ?",
-    "intro": "Passionnée par le marketing digital, je mets ma créativité et mon expertise au service des entreprises pour renforcer leur visibilité en ligne. Chaque projet est pour moi l’occasion de transformer une idée en une stratégie digitale vivante, capable de capter l’attention et de créer un véritable lien avec les audiences.",
-    "point1": "Conception de stratégies digitales adaptées aux besoins des marques.",
-    "point2": "Création de contenus visuels et vidéos engageants pour les réseaux sociaux.",
-    "point3": "Animation des communautés pour renforcer l’interaction et la fidélité.",
-    "point4": "Analyse des performances pour mesurer l’impact et optimiser les campagnes.",
-    "goal": "Mon objectif est d’accompagner les entreprises dans leur croissance en leur proposant des solutions modernes, efficaces et durables.",
-    "cta": "Collaborons ensemble",
-    "valuesTitle": "Mes valeurs",
-    "values": {
-      "creativity": "Créativité digitale",
-      "impact": "Impact mesurable",
-      "engagement": "Engagement social",
-      "innovation": "Innovation continue",
-      "teamwork": "Travail en équipe",
-      "client": "Orientation client"
-    }
-  },
-
-  "skills": {
-    "title": "Mes Compétences",
-    "intro": "Passionnée par le marketing digital, j’ai progressivement construit un savoir-faire riche et diversifié,\nen développant des compétences solides qui englobent la stratégie, la création de contenu et l’analyse de performance,\net qui me permettent aujourd’hui d’accompagner les entreprises dans la gestion efficace, cohérente et durable de leur présence en ligne.",
-    "marketing": {
-      "title": "Marketing Digital",
-      "item1": "Gestion des réseaux sociaux",
-      "item2": "Stratégie digitale",
-      "item3": "Engagement communautaire"
-    },
-    "content": {
-      "title": "Création de Contenu",
-      "item1": "Visuels & posts",
-      "item2": "Montage vidéo",
-      "item3": "Publications sociales"
-    },
-    "analysis": {
-      "title": "Analyse & Outils",
-      "item1": "Reporting",
-      "item2": "Analyse des performances",
-      "item3": "Optimisation des campagnes"
-    },
-    "other": {
-      "title": "Autres Compétences",
-      "item1": "Graphisme",
-      "item2": "Maintenance informatique",
-      "item3": "Secrétariat bureautique",
-      "item4": "Service client",
-      "item5": "Saisie de données"
-    },
-    "showMore": "Voir plus",
-    "showLess": "Voir moins"
-  },
-
-  "projects": {
-    "title": "Mes Réalisations",
-    "intro": "Mon parcours en marketing digital m’a permis de concevoir une large gamme de projets créatifs, incluant visuels, affiches, flyers, logos et contenus destinés aux réseaux sociaux, avec pour objectif constant d’aider aussi bien les entreprises que les particuliers à communiquer efficacement et à valoriser leur identité.",
-
-    "view": "Voir",
-    "role": "Rôle",
-    "results": "Résultats",
-    "impact": "Impact",
-    "tools": "Outils",
-
-    "categories": {
-      "entreprise": "Entreprise",
-      "client": "Client"
-    },
-
-    "items": {
-      "africanada": {
-        "title": "Gestion des réseaux sociaux AFRICANADA",
-        "description": "Gestion complète des réseaux sociaux : création de contenus visuels, planification des publications et animation de la communauté.",
-        "descriptionLong": "Gestion intégrale des réseaux sociaux d’AFRICANADA : conception de visuels, rédaction de publications, calendrier éditorial, animation quotidienne et suivi des performances. Coordination des campagnes promotionnelles et adaptation des contenus selon les retours utilisateurs.",
-        "role": "Community Manager & Assistante de direction",
-        "results": "Augmentation de l’engagement, meilleure visibilité et interactions clients renforcées.",
-        "impact": "Renforcement de l’image de marque et fidélisation de la communauté en ligne.",
-        "tools": "Canva Pro, Photoshop, CapCut"
-      },
-
-      "wonder": {
-          "title": "Marketing digital – CB WONDER Enterprise",
-          "description": "Participation au marketing digital : visuels, analyses concurrentielles, conception web et campagnes emailing.",
-          "descriptionLong": "Création de visuels, analyses concurrentielles, intégration web simple et campagnes emailing ciblées.",
-          "role": "Stagiaire en marketing digital",
-          "results": "Amélioration de la présence digitale et optimisation du contenu.",
-          "impact": "Contribution directe à la visibilité de l’entreprise et amélioration de la cohérence des campagnes marketing.",
-          "tools": "Canva Pro"
-        },
-
-      "horizon": {
-        "title": "Propositions de logos HORIZON",
-        "description": "Création de plusieurs déclinaisons de logos modernes et minimalistes.",
-        "descriptionLong": "Création de propositions graphiques variées pour moderniser l'identité visuelle.",
-        "role": "Designer graphique",
-        "results": "Plusieurs options livrées au client.",
-        "impact": "Renforcement de l’identité visuelle de l’entreprise.",
-        "tools": "Photoshop"
-      },
-
-      "onglerie": {
-        "title": "Affiche onglerie premium",
-        "description": "Affiche raffinée pour promouvoir les services du salon.",
-        "descriptionLong": "Création visuelle haut de gamme destinée à séduire une clientèle féminine et renforcer l’image du salon.",
-        "role": "Graphiste",
-        "results": "Affiche esthétique et marketing-optimisée.",
-        "impact": "Positionnement du salon comme référence locale.",
-        "tools": "Canva Pro"
-      },
-
-      "import": {
-        "title": "Flyer Import-Export Chine",
-        "description": "Flyer professionnel mettant en avant les services d’import-export.",
-        "descriptionLong": "Conception d’un flyer mettant en avant la fiabilité, la rapidité et la sécurité des services d’import-export.",
-        "role": "Designer graphique",
-        "results": "Support marketing efficace pour attirer de nouveaux clients.",
-        "impact": "Renforcement de la crédibilité auprès des partenaires.",
-        "tools": "Photoshop"
-      },
-
-      "gems": {
-        "title": "Flyer Gems Immo",
-        "description": "Flyer professionnel pour les descentes sur sites.",
-        "descriptionLong": "Conception d’un flyer mettant en avant la transparence, la disponibilité et l’importance des descentes sur sites.",
-        "role": "Designer graphique",
-        "results": "Meilleure visibilité des activités de l’entreprise.",
-        "impact": "Augmentation de la participation aux descentes.",
-        "tools": "Canva Pro"
-      },
-
-      "multiservices": {
-        "title": "Affiche multi-services entrepreneuse",
-        "description": "Affiche professionnelle mettant en avant divers services.",
-        "descriptionLong": "Création d’une affiche présentant secrétariat, infographie, copywriting et rédaction web.",
-        "role": "Designer graphique",
-        "results": "Support marketing efficace pour promouvoir l’ensemble des services.",
-        "impact": "Augmentation des demandes de collaboration.",
-        "tools": "Photoshop"
-      },
-
-      "concours": {
-        "title": "Affiche concours - deux candidates",
-        "description": "Affiche personnalisée pour deux participantes.",
-        "descriptionLong": "Conception d’une affiche mettant en avant photos, parcours et compétences des candidates.",
-        "role": "Designer graphique",
-        "results": "Visibilité renforcée auprès du jury et du public.",
-        "impact": "Valorisation des profils des candidates.",
-        "tools" : "Photoshop"
-      },
-
-      "beaute": {
-        "title": "Flyer soins de beauté",
-        "description": "Flyer professionnel pour services esthétiques.",
-        "descriptionLong": "Conception d’un flyer élégant et apaisant avec visuels premium.",
-        "role": "Designer graphique",
-        "results": "Plus de rendez-vous et meilleure notoriété locale.",
-        "impact": "Fidélisation des clientes grâce à une communication esthétique.",
-        "tools": "Canva Pro"
-      },
-
-     "carte": {
-        "title": "Carte de visite",
-        "description": "Création d'une carte de visite professionnelle, simple et élégante.",
-        "descriptionLong": "Création d’un fichier vectoriel avec déclinaisons couleur, pensé pour une impression nette et cohérente.",
-        "role": "Designer",
-        "results": "Partagée lors de rencontres et événements pour présenter mes services.",
-        "tools": "Photoshop"
-      },
-        "transit": {
-      "title": "Flyer FN Transit",
-      "description": "Flyer publicitaire pour une société d’importation et de transit.",
-      "descriptionLong": "Conception d’un visuel attractif et informatif mettant en avant les services de transport international de FN Transit. Le flyer présente les destinations, tarifs et coordonnées de manière claire et professionnelle.",
-      "role": "Designer",
-      "results": "Utilisé par le client pour promouvoir ses services auprès de prospects et partenaires.",
-      "impact": "Visibilité accrue et crédibilité renforcée auprès des clients potentiels.",
-      "tools": "Canva Pro"
-    }
-
-    }
-  },
-
-  "media": {
-    "prev": "Précédent",
-    "next": "Suivant",
-    "mute": "Couper le son",
-    "unmute": "Activer le son"
-  },
-
-  "modal": {
-    "close": "Fermer"
-  },
-
-  "experience": {
-    "title": "Mes Expériences & Formations",
-    "viewCertificate": "Voir le certificat",
-    "certificateAlt": "Certificat de formation",
-    "items": {
-      "africanada": {
-        "role": "Assistante de Direction & Community Manager",
-        "company": "AFRICANADA",
-        "location": "Douala, Cameroun (Région du Littoral)",
-        "period": "Janvier 2025 – Août 2025",
-        "description": [
-          "Planification stratégique et gestion d'agenda",
-          "Soutien administratif : gestion de la correspondance, des emails et organisation des documents",
-          "Accueil des clients et gestion des interactions en ligne",
-          "Création de visuels et montages vidéo pour la communication",
-          "Gestion des réseaux sociaux : création de contenu, engagement et suivi des performances"
-        ],
-        "tools": ["Facebook Business Suite", "Canva", "Photoshop", "Premiere Pro"],
-        "certificate": "/images/certificat2.jpg"
-      },
-      "hopital": {
-        "role": "Stagiaire Professionnel en Informatique",
-        "company": "Hôpital Gynéco-Obstétrique et Pédiatrique",
-        "location": "Douala, Cameroun (Région du Littoral)",
-        "period": "Février 2024 – Avril 2024",
-        "description": [
-          "Diagnostic et résolution de dysfonctionnements dans Microsoft Word",
-          "Résolution des problèmes d'imprimante et de scanner",
-          "Gestion de la saisie de données dans Excel",
-          "Configuration de modem",
-          "Suppression de virus sur ordinateurs et clés USB du personnel"
-        ],
-        "tools": ["MS Word", "MS Excel", "Maintenance informatique"]
-      },
-      "wonder": {
-        "role": "Stagiaire en Marketing Digital",
-        "company": "CB WONDER Enterprise",
-        "location": "Douala, Cameroun (Région du Littoral)",
-        "period": "Juin 2023 – Août 2023",
-        "description": [
-          "Gestion des pages de réseaux sociaux (Facebook, Twitter, Instagram)",
-          "Création de contenus visuels et sites web",
-          "Analyses concurrentielles et campagnes emailing"
-        ],
-        "tools": ["Facebook", "Twitter", "Instagram", "WordPress", "Mailchimp"]
-      },
-      "serveuse": {
-        "role": "Serveuse",
-        "company": "Restaurant B'SSADI Galeries",
-        "location": "Douala, Cameroun (Région du Littoral)",
-        "period": "Juin 2020 – Septembre 2020",
-        "description": [
-          "Accueil des clients et recommandations sur le menu",
-          "Réponse aux demandes et garantie de satisfaction",
-          "Gestion des commandes et communication avec la cuisine"
-        ],
-        "tools": ["Service client", "Communication", "Organisation"]
-      },
-      "permis": {
-        "role": "Permis de conduire catégorie B",
-        "company": "Auto-école Feu Vert",
-        "location": "Douala, Cameroun (Région du Littoral)",
-        "period": "2022 – 2023",
-        "description": [],
-        "tools": []
-      },
-      "marketing": {
-        "role": "Certificat en Marketing Digital",
-        "company": "Centre de Formation Professionnel des Arts et Métiers",
-        "location": "Douala, Cameroun (Région du Littoral)",
-        "period": "2021 – 2022",
-        "description": [],
-        "tools": [],
-        "certificate": "/images/certificat1.jpg"
-      },
-      "maintenance": {
-        "role": "Certificat en Maintenance Informatique",
-        "company": "Centre de Formation Professionnel des Arts et Métiers",
-        "location": "Douala, Cameroun (Région du Littoral)",
-        "period": "2021 – 2022",
-        "description": [],
-        "tools": []
-      }
-    }
-  },
-
-
-"contact": {
-  "title": "Contactez-moi",
-  "intro": "Vous avez un projet, une question ou une collaboration en tête ? N’hésitez pas à me contacter via le formulaire ou directement par téléphone ou email. Je suis disponible pour échanger et vous répondre rapidement.",
-  "location": "Douala, Cameroun",
-  "linkedin": "Mon profil LinkedIn",
-  "email": "lemoudjimiranda@gmail.com",
-  "phone": "(+237) 652 49 12 46",
-  "phone1": "(+237) 689 36 30 34",
-  "form": {
-    "name": "Votre nom",
-    "email": "Votre email",
-    "phone": "Votre téléphone",
-    "service": "Service demandé",
-    "details": "Expliquez votre projet...",
-    "send": "Envoyer",
-    "success": "Message envoyé",
-    "error": "Erreur"
-  }
-},
-
-"footer": {
-  "nav": {
     "home": "Accueil",
+    "compressor": "Convertisseur",
     "about": "À propos",
-    "projects": "Réalisations",
-    "experiences": "Expériences",
-    "contact": "Contact"
+    "close": "Fermer"
   },
-  "portfolio": "Portfolio de",
-  "company": "E‑Technology",
-  "rights": "Tous droits réservés"
+  "lang": {
+    "fr": "Français",
+    "en": "English"
+  },
+  "home": {
+    "hero": {
+      "badge": "Conversion et compression d’images intelligente",
+      "title": "Optimisez vos images",
+      "subtitle": "sans perte de qualité",
+      "description": "Une solution rapide et sécurisée, directement dans votre navigateur, pour convertir et compresser vos images. Optimisez vos fichiers en quelques secondes, gagnez en performance et offrez une expérience fluide à vos utilisateurs.",
+      "start": "Commencer",
+      "demo": "Voir démo"
+    },
+    "modal": {
+      "title": "Direct demo"
+  },
+    "features": {
+      "fast": {
+        "title": "Ultra rapide",
+        "desc": "Conversion instantanée pour gagner du temps et booster vos projets."
+      },
+      "secure": {
+        "title": "Sécurisé",
+        "desc": "Vos fichiers restent privés, aucune donnée n’est envoyée sur un serveur."
+      },
+      "multi": {
+        "title": "Multi-device",
+        "desc": "Compatible mobile et desktop, accessible partout où vous travaillez."
+      }
+    },
+   
+  "stats": {
+    "images": "Images",
+    "server": "Serveur",
+    "speedValue": "Ultra",
+    "speedLabel": "Rapide"
+  }
+
+  },
+  "conversionDemo": {
+    "title": "Démo conversion multi‑images",
+    "progress": "Conversion image {{index}}… {{percent}}%",
+    "original": "Taille originale",
+    "current": "Actuelle",
+    "reduction": "Réduction"
+  },
+  "compressor": {
+    "errorMaxImages": "Vous ne pouvez importer que\n10 images au maximum",
+    "title": "Convertissez et compressez vos images intelligemment",
+    "imported": "Images importées",
+    "compressAll": "Convertis tout",
+    "cancelAll": "Annuler tout",
+    "back": "Retour",
+    "importFile": "Importer un fichier"
+  },
+  "confirmModal": {
+    "message": "Voulez-vous vraiment supprimer cette image ?",
+    "delete": "Supprimer",
+    "edit": "Modifier l’image",
+    "cancel": "Annuler"
+  },
+  "controls": {
+    "quality": "Qualité",
+    "outputFormat": "Format de sortie",
+    "original": "Original"
+  },
+  "errorToast": {
+    "defaultMessage": "Une erreur est survenue"
+  },
+  "fileUploader": {
+    "limitReached": "Limite atteinte : {{maxCount}} images maximum",
+    "removeOne": "Supprimez une image pour en ajouter une nouvelle",
+    "imagesUsed": "images utilisées",
+    "dropHere": "Relâchez pour importer",
+    "dragDrop": "Glissez-déposez vos images",
+    "orClick": "ou cliquez pour choisir (PNG, JPEG, WebP, AVIF)"
+  },
+  "pdfPreview": {
+    "alt": "aperçu PDF",
+    "loading": "Chargement aperçu PDF..."
+  },
+  "progressModal": {
+    "wait": "Veuillez patienter…",
+    "compressing": "Compression en cours…",
+    "finalizing": "Finalisation…",
+    "progressLabel": "Progression :"
+  },
+  "resultItem": {
+    "original": "Original",
+    "optimized": "Optimisée",
+    "reduction": "Réduction",
+    "increase": "Augmentation",
+    "download": "Télécharger",
+    "downloading": "En cours...",
+    "delete": "Supprimer"
+  },
+  "resultsList": {
+    "title": "Résultats convertis"
+  },
+  "stagedItem": {
+    "converting": "Conversion...",
+    "convert": "Convertir",
+    "cancel": "Annuler"
+  },
+  "stagingList": {
+    "title": "Images en attente"
+  },
+  "successDashboard": {
+    "title": "Conversion terminée, vous pouvez télécharger vos fichiers",
+    "imagesConverted": "Images converties",
+    "before": "Avant",
+    "after": "Après",
+    "totalReduction": "Réduction totale : ",
+    "totalIncrease": "Augmentation totale : ",
+    "downloadZip": "Télécharger en ZIP",
+    "preparingZip": "Préparation du ZIP...",
+    "importNew": "Importer de nouvelles images"
+  },
+  "successToast": {
+    "batch": "Toutes vos images ont été compressées avec succès!",
+    "single": "Votre image a été convertie avec succès!"
+  },
+  "progressMessages": {
+    "wait": "Veuillez patienter…",
+    "compressing": "Compression en cours…",
+    "finalizing": "Finalisation…"
+  },
+  "about": {
+    "title": "À propos de",
+    "app": "notre application",
+    "description": "Nous avons créé cette application web gratuite pour aider les utilisateurs à convertir et compresser leurs images rapidement, directement dans leur navigateur. Notre mission est de rendre l’optimisation des fichiers simple, rapide et accessible à tous.",
+    "features": {
+      "accessible": "Accessible à tous",
+      "accessibleDesc": "Une solution gratuite et universelle, sans installation.",
+      "available": "Disponible partout",
+      "availableDesc": "Fonctionne sur mobile et desktop, où que vous soyez.",
+      "fast": "Rapide et efficace",
+      "fastDesc": "Conversion instantanée pour booster vos projets.",
+      "secure": "Sécurisé",
+      "secureDesc": "Vos fichiers restent privés, aucune donnée n’est envoyée."
+    },
+    "stats": {
+      "imagesCompressed": "Images compressées",
+      "usersSatisfied": "Utilisateurs satisfaits",
+      "secondsPerConversion": "Secondes en moyenne par conversion"
+    },
+    "testimonials": {
+      "title": "Ce que disent nos utilisateurs",
+      "designer": "Designer freelance",
+      "developer": "Développeur web",
+      "manager": "Community manager",
+      "text1": "Cette application m’a permis de réduire la taille de mes visuels sans perdre en qualité. Un vrai gain de temps !",
+      "text2": "Simple, rapide et gratuit. Je l’utilise pour optimiser mes projets avant chaque déploiement.",
+      "text3": "Grâce à cet outil, mes campagnes sont plus légères et mes publications se chargent instantanément."
+    },
+    "cta": {
+      "try": "Essayer l’application",
+      "contact": "Nous contacter"
+    }
+  },
+  "footer": {
+  "messages": {
+    "fast": "Conversion rapide et gratuite",
+    "optimize": "Optimisez vos images sans effort",
+    "confidentiality": "Respect total de votre confidentialité",
+    "accessible": "Accessible partout, sans limite",
+    "contact": "Besoin d’un projet web ? Contactez-nous !",
+    "customDev": "Développement sur mesure pour vos idées",
+    "ally": "E‑Technology, votre allié numérique"
+  },
+  "attribution": "Application gratuite — E‑Technology",
+  "link": "Découvrir nos projets",
+  "copyright": "© 2026 — Tous droits réservés"
 }
-
-
 
 }

@@ -1,0 +1,7 @@
+import { jsxs as _jsxs, jsx as _jsx } from "react/jsx-runtime";
+import { useTranslation } from "react-i18next";
+const Controls = ({ quality, setQuality, outputFormat, setOutputFormat, }) => {
+    const { t } = useTranslation();
+    return (_jsxs("div", { className: "flex flex-row gap-12 w-full items-center justify-between", children: [_jsxs("div", { className: "flex-1 max-w-xs w-full", children: [_jsxs("label", { className: "block text-sm font-medium text-gray-700 mb-2 text-center", children: [t("controls.quality"), " ", quality, "%"] }), _jsx("input", { type: "range", min: 10, max: 100, step: 5, value: quality, onChange: (e) => setQuality(Number(e.target.value)), className: "w-full accent-[#097c75]" })] }), _jsxs("div", { className: "flex-1 max-w-xs w-full", children: [_jsx("label", { className: "block text-sm font-medium text-gray-700 mb-2 text-center", children: t("controls.outputFormat") }), _jsxs("select", { value: outputFormat, onChange: (e) => setOutputFormat(e.target.value), className: "w-full border rounded-md px-3 py-2 focus:ring-[#097c75] focus:border-[#097c75]", children: [_jsx("option", { value: "webp", children: "WebP" }), _jsx("option", { value: "jpeg", children: "JPEG" }), _jsx("option", { value: "png", children: "PNG" }), _jsx("option", { value: "jpg", children: "JPG" }), _jsx("option", { value: "avif", children: "AVIF" }), _jsx("option", { value: "pdf", children: "PDF" }), _jsx("option", { value: "original", children: t("controls.original") })] })] })] }));
+};
+export default Controls;

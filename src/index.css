@@ -3,6 +3,7 @@
 /* ---------------- Global base ---------------- */
 html {
   scroll-behavior: smooth;
+  
 }
 
 :root {
@@ -46,4 +47,22 @@ html {
   opacity: 1;
   transform: translateY(0) scale(1);
   transition: opacity 1000ms ease-out, transform 1000ms ease-out;
+}
+
+/* Degrader pour le texte ce que les utilisateurs disent */
+@keyframes gradient-smooth {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-smooth {
+  background-size: 300% 300%; /* plus large pour un glissement doux */
+  animation: gradient-smooth 8s ease-in-out infinite; /* durée plus longue et fluide */
 }
