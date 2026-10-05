@@ -1,8 +1,3 @@
-
-
-
-
-
 import React, { useEffect, useRef, useState } from "react";
 import { Image as ImageIcon, Loader2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -11,8 +6,11 @@ const images = [
   "/Images/landry.webp",
   "/Images/landry1.webp",
   "/Images/landry2.webp",
-  "/Images/landry3.webp",
+  "/Images/convers2.webp",
   "/Images/landry4.webp",
+  "/Images/convers.webp",
+  "/Images/convers1.webp",
+  "/Images/convers3.webp",
 ];
 
 const HeroDemo: React.FC = () => {
@@ -132,10 +130,14 @@ const HeroDemo: React.FC = () => {
 
           <div className="text-sm text-gray-600 mt-1">
             {t("conversionDemo.original")} :{" "}
-            <span className="font-medium text-gray-800">{originalSizeKB} KB</span>
+            <span className="font-medium text-gray-800">
+              {originalSizeKB} KB
+            </span>
             {" • "}
             {t("conversionDemo.current")} :{" "}
-            <span className="font-medium text-gray-800">{currentSizeKB} KB</span>
+            <span className="font-medium text-gray-800">
+              {currentSizeKB} KB
+            </span>
             {" • "}
             {t("conversionDemo.reduction")} :{" "}
             <span className="font-medium text-gray-800">
