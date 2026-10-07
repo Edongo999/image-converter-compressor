@@ -1,6 +1,8 @@
+
+
+
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { menuVariants } from "@/components/animations/menuAnimations";
 import NavLinks from "./NavLinks";
 import LanguageSelector from "./LanguageSelector";
 import { Menu, X } from "lucide-react";
@@ -43,43 +45,46 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* MENU MOBILE */}
+      {/* MENU MOBILE - Drawer latéral */}
       <AnimatePresence>
         {menuOpen && (
-          <motion.div
-            className="fixed inset-0 bg-[#097c75]/90 backdrop-blur-sm md:hidden z-40"
-            variants={menuVariants}
-            initial="hidden"
-            animate="visible"
-            exit="hidden"
-          >
-            <div
-              className="absolute inset-0"
+          <>
+            {/* Overlay discret */}
+            <motion.div
+              className="fixed inset-0 bg-black/30 backdrop-blur-sm md:hidden z-40"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
               onClick={() => setMenuOpen(false)}
             />
 
+            {/* Drawer */}
             <motion.div
-              className="relative flex flex-col justify-center items-center text-2xl h-full space-y-6 px-6 text-center"
-              initial={{ y: 50, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: 50, opacity: 0 }}
-              transition={{ duration: 0.4, ease: "easeOut" }}
+              className="fixed inset-y-0 left-0 w-3/4 max-w-sm bg-[#097c75] shadow-lg md:hidden z-50 flex flex-col"
+              initial={{ x: "-100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "-100%" }}
+              transition={{ duration: 0.4, ease: "easeInOut" }}
             >
-              {/* ✅ Liens centrés */}
-              <NavLinks
-                vertical
-                className="flex flex-col items-center gap-6 text-center"
-                onClick={() => setMenuOpen(false)}
-              />
+              {/* Header du menu */}
+              <div className="flex justify-between items-center px-4 py-3 border-b border-white/20">
+                <span className="text-lg font-bold">Menu</span>
+                <button onClick={() => setMenuOpen(false)}>
+                  <X size={28} />
+                </button>
+              </div>
 
-              <button
-                onClick={() => setMenuOpen(false)}
-                className="mt-8 px-6 py-2 bg-white text-[#097c75] rounded-lg shadow hover:bg-gray-100 transition"
-              >
-                Fermer
-              </button>
+              {/* Liens */}
+              <div className="flex flex-col gap-6 px-6 py-8 text-white text-lg">
+                <NavLinks
+                  vertical
+                  className="flex flex-col gap-4"
+                  onClick={() => setMenuOpen(false)}
+                />
+                <LanguageSelector />
+              </div>
             </motion.div>
-          </motion.div>
+          </>
         )}
       </AnimatePresence>
     </nav>
